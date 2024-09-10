@@ -1,0 +1,14 @@
+#streamlit
+#wave
+langchain
+keyboard
+#pip install --quiet -U langgraph langchain langchain_openai langchainhub tavily-python
+
+
+
+
+
+
+
+
+

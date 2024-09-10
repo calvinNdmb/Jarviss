@@ -1,0 +1,17 @@
+# Environnements virtuels
+.conda/
+envs/
+conda-meta/
+
+# Fichiers temporaires de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Journaux
+*.log
+
+# Configurations locales
+.vscode/
+.idea/
+*.iml
