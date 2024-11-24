@@ -12,4 +12,4 @@ if st.button("Entrer"):
     st.write(f"Jarvis a dit {output}")
 if st.button("Parler 🎙️"):
     st.write("Enregistrement...")
-    st.write("Bahahha je l'ai pas encore fait")
+    st.write("🛠️😅Working on it...   sorry😅🛠️")
