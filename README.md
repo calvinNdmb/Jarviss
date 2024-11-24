@@ -22,11 +22,14 @@ Jarvis is an interactive virtual assistant project designed to simplify human-co
 2. Install the dependencies:  
    ```bash  
    pip install -r requirements.txt  
-   ```  
-3. Run the application:  
+   ```
+3. Enter your API keys
+   
+5. Run the application:  
    ```bash  
    streamlit run jarvis_interface.py
-   ```  
+   ```
+
 
 ### Upcoming Features 🚀  
 - 💬 **Real-time voice recognition** for smoother interactions.  
