@@ -38,7 +38,7 @@ Jarvis is an interactive virtual assistant project designed to simplify human-co
 
 ### Project Structure 📂  
 - **`jarvis.py`**: Core functionalities and tools for executing tasks.  
-- **`trigger.py`**: Speech recognition logic and trigger phrase handling.  
+- **`trigger.py`**: Speech recognition logic and trigger phrase handling.  (in work)
 - **`jarvis_interface.py`**: GUI implementation using Streamlit.  
 
 ### Contribution 🤝  
