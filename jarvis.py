@@ -17,10 +17,10 @@ from langchain.agents import create_openai_functions_agent
 from langchain_core.agents import AgentAction, AgentFinish
 
 
-os.environ["OPENAI_API_KEY"] = "sk-gqSDvacX_H8RPXnkauNLBe141Cr8Xt_dsOnCEOxcGZT3BlbkFJzzF7AwF9d8o1E7XNxcAaQP4gKjxjFEVdeGmHhT_AcA"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API key"
+os.environ["TAVILY_API_KEY"] = "API key"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "API key"
 
 def google_search(search_query = ""):
 
@@ -60,7 +60,7 @@ tools = [open_chatgpt_tool, open_google_tool, open_youtube_tool, open_github_too
 
 prompt = hub.pull("hwchase17/openai-functions-agent")
 
-llm = ChatOpenAI(model="gpt-3.5-turbo-1106", streaming=True)
+llm = ChatOpenAI(model="gpt-4o-mini", streaming=True)
 
 agent_runnable = create_openai_functions_agent(llm, tools, prompt)
 
