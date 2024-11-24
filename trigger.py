@@ -1,3 +1,4 @@
+#working on it ^^' feel free to fork
 import speech_recognition as sr
 import subprocess
 import sys
